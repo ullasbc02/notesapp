@@ -5,7 +5,7 @@
 - `backend/` - Node.js + Express app
 
 ## Installation Steps
-open gitbash
+Open gitbash
 ### 1. Backend (Node.js + Express)
 1. Open a terminal and navigate to the `backend` folder:
    ```sh

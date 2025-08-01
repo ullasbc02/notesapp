@@ -1,0 +1,38 @@
+[
+    {
+        "title": "Grocery",
+        "content": "Buy milk, eggs, and bread."
+    },
+    {
+        "title": "Work",
+        "content": "Finish the report by Friday."
+    },
+    {
+        "title": "Ideas",
+        "content": "Start a blog about tech trends."
+    },
+    {
+        "title": "Travel",
+        "content": "Plan trip to Japan in spring."
+    },
+    {
+        "title": "Books to Read",
+        "content": "The Pragmatic Programmer, Clean Code, Deep Work."
+    },
+    {
+        "title": "Fitness",
+        "content": "Go for a run 3 times a week."
+    },
+    {
+        "title": "Movies to Watch",
+        "content": "Inception, The Matrix, Interstellar."
+    },
+    {
+        "title": "Recipes",
+        "content": "Try making homemade pasta."
+    },
+    {
+        "title": "Learning Goals",
+        "content": "Learn React and Node.js this year."
+    }
+]

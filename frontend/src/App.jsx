@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import Title from '../components/Title'
 import './App.css'
 import axios from 'axios';
+import Note from '../components/Note';
 
 function App() {
   const [data, setData] = useState([]);
@@ -29,8 +29,8 @@ function App() {
       <ul>
         {data.map((note, index) => (
           <li key={index}>
-            <h2>{note.title}</h2>
-            <p>{note.content}</p>
+            <Title title={note.title} />
+            <Note content={note.content} />
           </li>
         ))}
       </ul>

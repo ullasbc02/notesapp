@@ -1,16 +1,15 @@
 import express from 'express';
-import bodyParser from 'body-parser';
 import cors from 'cors';
-import notes from './notes.json' assert { type: 'json' };
+import fs from 'fs';
 
 const app = express();
 const PORT = process.env.PORT || 5000;
 
-// Middleware
 app.use(cors());
 app.use(express.json());
 
 app.get('/', (req, res) => {
+  const notes = JSON.parse(fs.readFileSync('./notes.json', 'utf8'));
   res.json(notes);
 });
 

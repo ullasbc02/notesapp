@@ -1,8 +1,8 @@
 import React from 'react';
 import { useEffect, useState } from 'react'
-import Title from './Title'
+
 import '../public/styles.css'
-import Note from './Note';
+
 import axios from 'axios';
 
 function Notes() {
@@ -29,8 +29,8 @@ function Notes() {
       <ul>
         {data.map((note, index) => (
           <li key={index}>
-            <Title title={note.title} />
-            <Note content={note.content} />
+            <h2>{note.title}</h2>
+            <p>{note.content}</p>
           </li>
         ))}
       </ul>
